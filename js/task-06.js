@@ -1,6 +1,5 @@
 const inputTag = document.querySelector('#validation-input');
 
-// console.log(inputTag);
 
 inputTag.addEventListener('blur', () =>
  { 
