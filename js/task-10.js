@@ -37,5 +37,5 @@ refs.btnDestroyeRef.addEventListener("click", destroyBoxes);
 
 function destroyBoxes() {
   refs.boxRef.innerHTML = "";
-  size = 0;
+  size = 30;
 }
