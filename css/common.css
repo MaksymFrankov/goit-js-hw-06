@@ -12,14 +12,24 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+#controls {
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
+}
 
 input {
-  padding: 8px;
+  padding: 7px;
   font: inherit;
+  height: 43px;
+  margin-right: 4px;
+
+  
 }
 
 button {
-  padding: 8px 12px;
+  padding: 12px 12px;
+  margin: 0px 4px 0px 0px ;
   cursor: pointer;
 }
 
