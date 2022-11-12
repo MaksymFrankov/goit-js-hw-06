@@ -1,8 +1,5 @@
 const formLogin = document.querySelector('.login-form');
-let   data = {
-        Email: null,
-        Password: null,
-}
+
 formLogin.addEventListener('submit', (event) => {
     event.preventDefault();
     const {
@@ -11,12 +8,12 @@ formLogin.addEventListener('submit', (event) => {
     if (email.value === "" || password.value === "") {
         return alert("Поле не заполнено!");
     }
-    data = {
-        Email: email.value,
-        Password: password.value,
+    else {
+        console.log(`Email : ${email.value}, Password:${password.value}`)
+        event.currentTarget.reset();
     }
-    alert(JSON.stringify(data, null, 3));
-    event.currentTarget.reset();
+    
 
     
 });
+
