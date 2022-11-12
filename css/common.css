@@ -40,7 +40,10 @@ button {
 }
 
 .container {
-  position: relative
+  position: relative;
+  width: calc(80vw);
+  height: calc(20vh);
+  margin-right: 0px;
 }
 
 .container ul {
@@ -49,7 +52,6 @@ button {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-right: -50%;
   padding: 0px;
   }
 
