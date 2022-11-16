@@ -9,7 +9,7 @@ formLogin.addEventListener('submit', (event) => {
         return alert("Поле не заполнено!");
     }
     else {
-        console.log(`Email : ${email.value}, Password:${password.value}`)
+        console.log({'Email': email.value, 'Password': password.value})
         event.currentTarget.reset();
     }
     
